@@ -1,0 +1,23 @@
+{
+  "name": "Flashcard-Generator",
+  "version": "1.0.0",
+  "description": "The backend for a basic flashcard application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernadettVLopiccolo/Flashcard-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BernadettVLopiccolo/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/BernadettVLopiccolo/Flashcard-Generator#readme",
+  "dependencies": {
+    "inquirer": "^3.2.0"
+  }
+}
