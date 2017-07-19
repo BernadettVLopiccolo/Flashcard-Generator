@@ -9,7 +9,7 @@ function BasicCard (front, back) {
 			back: this.back,
 			type: "basic",
 		};
-		fs.appendFile("\nlog.txt", JSON.stringify(data) + ";" + "\n", "utf8", function(error) {
+		fs.appendFile("log.txt", JSON.stringify(data) + ";", "utf8", function(error) {
 			if (error) {
 				console.log("Error occurred!", error);
 			} else {
