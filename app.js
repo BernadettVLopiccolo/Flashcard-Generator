@@ -130,27 +130,33 @@ var continuePlay = function() {
 };
 // this function reads question from log.txt
 var showCards = function() {
-    fs.readFile("./log.txt", "utf8", function(error, data) {
+    fs.readFile("log.txt", "utf8", function(error, data) {
         if (error) {
-            console.log("Error occurred: " + error);
+           return console.log("Error occurred: " + error);
+        } else {
+            var question = data.split(";");
+            for (var i = 0; i < question.length - 1; i++) {
+                var fullCard = JSON.parse(question[i]);
+                var count = 0;
+
+            }
+            showCardQuestion(question, count);
+        // console.log("QQ", question, "Count", count);
         }
-        var question = data.split(";");
-        var count = 0;
-        showCardQuestion(question, count);
     });
 };
 // this function shows the question and checks if the answer is correnct or wrong.
 var showCardQuestion = function(array, index) {
     question = array[index];
     var fullCard = JSON.parse(question);
-    console.log("fullCard", fullCard);
+    // console.log("fullCard", fullCard);
     var questionText;
     var rightAnswer;
     if (fullCard.type === "basic") {
         questionText = fullCard.front;
-        console.log("questionText", questionText);
+        // console.log("questionText", questionText);
         rightAnswer = fullCard.back;
-        console.log("rightAnswer", rightAnswer);
+        // console.log("rightAnswer", rightAnswer);
 
 
     } else if (fullCard.type === "cloze") {
@@ -163,16 +169,20 @@ var showCardQuestion = function(array, index) {
     }]).then(function(answer) {
         if (answer.answer === rightAnswer) {
             console.log("You got it right!");
-            
-            // for (var i = 0; i < array.length; i++);
-           
-                showCardQuestion();
 
-           
+                showCards();
+
+
+
         } else {
             console.log("Nop! The correct answer is: " + rightAnswer);
-            showCardQuestion();
-            
+            showCards();
+
         }
     });
 };
+
+
+
+
+

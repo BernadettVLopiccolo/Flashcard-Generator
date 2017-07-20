@@ -1,5 +1,5 @@
-{"text":"The name of the European Bison is Wisent.","cloze":"Wisent","type":"cloze"};{"text":"Siberian tiger is the largest species of the tiger.","cloze":"Siberian tiger","type":"cloze"};undefinedundefined{"front":"The bite of which insect causes the Lyme Disease?","back":"Deer Tick","type":"basic"};{"text":"Sahara is the largest desert on Earth.","cloze":"Sahara","type":"cloze"};undefinedundefined{"front":"What is the capital city of Australia?","back":"Canberra","type":"basic"};
-undefinedundefined{"front":"Wich country did once have the name Rhodesia?","back":"Zimbabwe","type":"basic"};
-{"text":"Bass voice is the lowest male voice.","cloze":"Bass voice","type":"cloze"};undefinedundefined{"front":"Which popular fitness method was invented by a German?","back":"Pilates","type":"basic"};
-undefinedundefined{"front":"Where were the Olimpic Games held in 1996?","back":"Atlanta","type":"basic"};
-undefinedundefined{"front":"What is the nickname of the Belgian national soccer team?","back":"Red devils","type":"basic"};
+{"text":"The name of the European Bison is Wisent.","cloze":"Wisent","type":"cloze"};{"text":"Siberian tiger is the largest species of the tiger.","cloze":"Siberian tiger","type":"cloze"};{"front":"The bite of which insect causes the Lyme Disease?","back":"Deer Tick","type":"basic"};{"text":"Sahara is the largest desert on Earth.","cloze":"Sahara","type":"cloze"};{"front":"What is the capital city of Australia?","back":"Canberra","type":"basic"};
+{"front":"Wich country did once have the name Rhodesia?","back":"Zimbabwe","type":"basic"};
+{"text":"Bass voice is the lowest male voice.","cloze":"Bass voice","type":"cloze"};{"front":"Which popular fitness method was invented by a German?","back":"Pilates","type":"basic"};
+{"front":"Where were the Olimpic Games held in 1996?","back":"Atlanta","type":"basic"};
+{"front":"What is the nickname of the Belgian national soccer team?","back":"Red devils","type":"basic"};
