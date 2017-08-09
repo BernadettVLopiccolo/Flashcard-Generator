@@ -14,7 +14,7 @@ function ClozeCard (text, cloze) {
 		};
 		fs.appendFile("log.txt", JSON.stringify(data) + ";", "utf8", function(error) {
 	 		if (error) {
-				console.log("Error occurred!", error);
+				return console.log("Error occurred!", error);
 		} else {
 			console.log("Cloze card has been added!");
 		}

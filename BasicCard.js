@@ -11,7 +11,7 @@ function BasicCard (front, back) {
 		};
 		fs.appendFile("log.txt", JSON.stringify(data) + ";", "utf8", function(error) {
 			if (error) {
-				console.log("Error occurred!", error);
+				return console.log("Error occurred!", error);
 			} else {
 
 				console.log("Basic card has been added!");
